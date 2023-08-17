@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Form</title>
+    <style>
+        .menu
+        {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+
+        }
+        .head
+        {
+            color: white;
+            font-size: 35px;
+            line-height: 80px;
+            font-weight: bold;
+            padding: 0 100px;
+        }
+        nav
+        {
+            background-color: rgb(83, 10, 10);
+        }
+        nav ul
+        {
+            float: right;
+            margin-right: 20px;
+        }
+        nav ul li
+        {
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+        nav ul li a
+        {
+            color:white;
+            font-size: 17px;
+            text-transform: uppercase;
+            
+        }
+        .bod
+        {
+            background-color: chocolate;
+            width:100%;
+            height:800px;
+            background-image: url("imagecup/bloodmain.jpg");
+            background-repeat: no-repeat;
+            background-size:contain;
+            
+            
+
+        }
+        .register
+        {
+            position: absolute;
+            margin-left: 35%;
+            margin-top: 9%;
+            background-color: white;
+            padding: 50px;
+            border-top: 4px solid red;
+        }
+        .text
+        {
+            text-transform: uppercase;
+            text-shadow: seashell;
+            text-size-adjust: 10px;
+            color: red;
+            text-decoration-color: red;
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+    
+        <label class="head">BLOOD DONATION</label>
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Search Volunteer</a></li>
+            <li><a href="">Blood Request</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+        </nav>
+
+        <div class="bod">
+            <div><marquee behaviour="alternate" direction="right" class="text">A blood donor is equal to a lifesaver</marquee></div>
+            <div class="register">
+                    <table>
+                        <form>
+                        <tr>
+                            <td class="reg" colspan="2"><marquee behaviour="alternate" direction="right">Register Here</marquee></td>
+                        </tr>
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" name="name"/></td>
+                        </tr>
+                        <tr>
+                            <td>Age:</td>
+                            <td><input type="number" name="Age"/></td>
+                        </tr>
+                        <tr>
+                            <td>Blood Group:</td>
+                            <td><select name="blood group">
+                                <option>Select Option</option>
+                                <option>A positive</option>
+                                <option>B positive</option>
+                                <option>O positive</option>
+                                <option>O negative</option>
+                                <option>AB positive</option>
+                                <option>AB negative</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Mob No:</td>
+                            <td><input type="text" name="phone"></td>
+                        </tr>
+                        <tr>
+                            <td><button>Register</button></td>
+                        </tr>
+                        </form>
+                    </table>
+
+            </div>
+
+
+        </div>
+    
+</body>
+</html>
